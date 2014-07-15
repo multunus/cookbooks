@@ -1,0 +1,6 @@
+
+# Port 80 for http
+-A FWR -p tcp -m tcp --dport 80 -j ACCEPT
+-A FWR -p tcp -m tcp --dport 26487 -j ACCEPT
+-A FWR -p tcp -m tcp --dport 3306 -j ACCEPT
+-A FWR -p tcp -m tcp --dport 6379 -j ACCEPT
